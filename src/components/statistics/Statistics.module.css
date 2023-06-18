@@ -1,0 +1,18 @@
+.statistics {
+    border: 1px solid grey;
+    /* height: 100px; */
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-top: 20px;
+
+}
+.title {
+    margin: 0 auto;
+    text-transform: uppercase;
+    color: grey;
+
+}
+.statList {
+    display: flex;
+}

@@ -1,0 +1,17 @@
+.item {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    background-color: rgb(173, 159, 240);
+    color: white;
+}
+.label {
+    
+    
+}
+.percentage {
+    
+}
