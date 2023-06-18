@@ -1,7 +1,7 @@
 .tableCell {
   padding: 10px;
   width: 200px;
-  /*  */
+  
   text-align: center;
   vertical-align: middle;
   text-transform: capitalize;
@@ -9,7 +9,6 @@
 }
 .tableRow {
   height: 30px;
-  /* background-color: yellowgreen; */
 }
 .tableRow:nth-child(2n) {
     background-color: rgb(213, 226, 245);
