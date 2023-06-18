@@ -25,7 +25,7 @@ export const Profile = ({ userData }) => {
         </li>
         <li className={css.statsItem}>
           <span className={css.label}>Views</span>
-          <span class={css.quantity}>{views}</span>
+          <span className={css.quantity}>{views}</span>
         </li>
         <li className={css.statsItem}>
           <span className={css.label}>Likes</span>

@@ -1,5 +1,5 @@
 import propTypes from 'prop-types';
-import css from './FriendList.module.css'
+//import css from './FriendList.module.css'
 import { FriendItem } from './FriendItem';
 export const FriendList =({friends})=>{
     return (
@@ -12,7 +12,7 @@ export const FriendList =({friends})=>{
 
 }
 FriendList.propTypes = {
-	friendsData: propTypes.arrayOf(
+	friends: propTypes.arrayOf(
 		propTypes.exact({
 			avatar: propTypes.string.isRequired,
 			name: propTypes.string.isRequired,
