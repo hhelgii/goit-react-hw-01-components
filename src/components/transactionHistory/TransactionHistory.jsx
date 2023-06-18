@@ -3,12 +3,12 @@ import css from './TransactionHistory.module.css';
 import { TransactionItem } from './TransactionItem';
 export const TransactionHistory = ({ items }) => {
   return (
-    <table class="transaction-history">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Amount</th>
-          <th>Currency</th>
+    <table className={css.transactionHistory}>
+      <thead className={css.tableHeader}>
+        <tr className={css.tableRow}>
+          <th className={css.tableCell}>Type</th>
+          <th className={css.tableCell}>Amount</th>
+          <th className={css.tableCell}>Currency</th>
         </tr>
       </thead>
 

@@ -1,18 +1,19 @@
 .statistics {
-    border: 1px solid grey;
-    /* height: 100px; */
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-    padding-top: 20px;
-
+  /* border: 1px solid grey; */
+  
+  display: inline-flex;
+  flex-direction: column;
+  margin: 10px;
+  gap: 20px;
+  padding-top: 20px;
+  box-shadow: 0 0 5px 2px rgba(37, 24, 61, 0.2);
+  
 }
 .title {
-    margin: 0 auto;
-    text-transform: uppercase;
-    color: grey;
-
+  margin: 0 auto;
+  text-transform: uppercase;
+  color: grey;
 }
 .statList {
-    display: flex;
+  display: flex;
 }
